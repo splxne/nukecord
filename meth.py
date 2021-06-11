@@ -20,9 +20,9 @@ def setup():
             time.sleep(0.5)
             data = {
                 "token": "token",
-                "masschannelname": "get fucked",
+                "masschannelname": "get nuked lol",
                 "massrolename": "get nuked lol",
-                "servername": "fuck you",
+                "servername": "nuked",
                 "servericon": "icon.png"
             }
             json.dump(data, fp, indent=4)

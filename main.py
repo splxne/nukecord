@@ -41,17 +41,7 @@ async def on_ready():
     for guild in bot.guilds:
         print(guild.name + " - " + str(guild.id))
 
-print(f"""
-  
-{Fore.RED}███╗   ██╗██╗   ██╗██╗  ██╗███████╗ ██████╗ ██████╗ ██████╗ ██████╗ 
-{Fore.LIGHTRED_EX}████╗  ██║██║   ██║██║ ██╔╝██╔════╝██╔════╝██╔═══██╗██╔══██╗██╔══██╗
-{Fore.LIGHTYELLOW_EX}█A╔██╗ ██║█u║   ██║█x███╔╝ █y███╗  █l║     █o║   ██║█t████╔╝█l║  ██║
-{Fore.LIGHTGREEN_EX}██║╚██╗██║██║   ██║██╔═██╗ ██╔══╝  ██║     ██║   ██║██╔══██╗██║  ██║
-{Fore.BLUE}██║ ╚████║╚██#███╔╝██║  █1╗███0███╗╚███0██╗╚███1██╔╝██║  ██║██████╔╝
-{Fore.MAGENTA}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═════╝ {Fore.RESET}
-https://github.com/auxylotl
-
-""")
+print("https://github.com/sewial")
 setup()
 with open("config.json") as f:
     config = json.load(f)
